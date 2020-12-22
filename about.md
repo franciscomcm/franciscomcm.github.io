@@ -21,6 +21,9 @@ As hobbies, I like to run and play tennis, photography and learn new languages.
 
 ## Education
 
+– <small>**2020 to Present**</small> <br>
+&ensp;&nbsp;Doctoral student in Health Sciences and Technology, ETH Zurich, Switzerland <br>
+
 – <small>**2018 to 2020**</small> <br>
 &ensp;&nbsp;Master Degree in Biomedical Engineering, ETH Zurich, Switzerland <br>
 
