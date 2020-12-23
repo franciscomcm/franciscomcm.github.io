@@ -13,7 +13,7 @@ Welcome to the first post!
 
 This blog is a reminder to regularly practice my writing skills while sharing my journey as a Doctoral student.
 
-Having completed my first semester as a Doctoral student, I felt a clear transition from my previous student life. More than ever, time management is fundamental to balance my work with courses, collaborations with colleagues, teaching duties, administrative tasks, and personal life. Hence, my interest in exploring new ways to escalate my productivity has grown into a challenge.
+Having completed my first semester in this new chapter, I felt a clear transition from my previous student life. More than ever, time management is fundamental to balance my work with courses, collaborations with colleagues, teaching duties, administrative tasks, and personal life. Hence, my interest in exploring new ways to escalate my productivity has grown into a challenge.
 
 > Productivity is being able to do things that you were never able to do before. - Franz Kafka
 
