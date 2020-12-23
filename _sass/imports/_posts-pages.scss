@@ -50,6 +50,20 @@
   }
 }
 
+@media only screen and (min-width: 801px) {
+  .post-image {
+    height: 55vh;
+    overflow: hidden;
+    position: relative;
+  
+    img {
+      transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+    }
+  }
+}
+
 /* Post feed */
 .post-thumbnail {
   border: 0;
