@@ -2,8 +2,7 @@
 title: Hello, world!
 subtitle: 'A glimpse into my life as a Doctoral student'
 excerpt: >-
-  This blog is a reminder to regularly practice my writing skills,
-  while sharing my journey as a Doctoral student.
+  Welcome to the first post of the blog!
 date: '2020-12-23'
 thumb_image: images/post_1_thumb.jpg
 image: images/post_1.jpg
