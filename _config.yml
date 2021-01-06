@@ -40,11 +40,11 @@ footer:
       style: icon
       icon_class: fa-linkedin
       new_window: true
-    # - label: Google Scholar
-    #   url: 'https://scholar.google.com/citations?hl=en&user=kd_6AzgAAAAJ'
-    #   style: icon
-    #   icon_class: fa-google-scholar
-    #   new_window: true
+    - label: Google Scholar
+      url: 'https://scholar.google.com/citations?hl=en&user=kd_6AzgAAAAJ'
+      style: icon
+      icon_class: fa-google
+      new_window: true
     - label: ORCiD
       url: 'https://orcid.org/0000-0002-1651-0457'
       style: icon
