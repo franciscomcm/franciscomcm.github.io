@@ -14,21 +14,13 @@ header:
     - label: Home
       url: /
       style: link
-    #- label: Projects
-    #  url: /portfolio/
-    #  style: link
     - label: Blog
       url: /blog/
       style: link
-    # - label: Style Guide
-    #   url: /style-guide/
-    #   style: link
     - label: About
       url: /about/
       style: link
-    # - label: Contact
-    #   url: /contact/
-    #   style: link
+
 footer:
   content: >-
     Francisco Correia Marques 2020 <br>
@@ -70,10 +62,12 @@ footer:
       style: icon
       icon_class: fa-twitter
       new_window: true
+
 sass:
   indentWidth: 4
   style: nested
   precision: 10
+
 exclude:
   - Gemfile
   - Gemfile.lock
