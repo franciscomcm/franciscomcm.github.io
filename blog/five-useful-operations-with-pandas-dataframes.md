@@ -2,7 +2,7 @@
 title: Five useful operations with Pandas DataFrames
 subtitle: 'Data science made easy!'
 excerpt: >-
-  This post will highlight five operations with `pandas DataFrames` that may come very handy while exploring and preparing a dataset before carrying a data analysis!
+  Handy tricks to explore and prepare a dataset before carrying a data analysis!
 date: '2021-01-24'
 thumb_image: images/post_2_thumb.jpg
 image: images/post_2.jpg
@@ -130,9 +130,11 @@ If you prefer writing the masks directly inside the `[]` instead of creating a m
 
 # Conclusion
 
-In conclusion, `pandas` is a powerful package that can massively improve your workflows. Furthermore, it can be seamlessly integrated with other packages to create publication-ready figure panels (more on that later) with little effort.
+`pandas` is a powerful package that can massively improve your workflows. Furthermore, it can be seamlessly integrated with other packages to create publication-ready figure panels (more on that later) with little effort.
 
 If you would like to learn more about using pandas, I highly recommend [Chapter 3](https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html) of the [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas. The book covers all the basics with clear explanations and introduces some advanced techniques to best leverage this package in your work.
+
+The data and examples shown in this post are available on [Kaggle](https://www.kaggle.com/franciscomcm/five-useful-operations-with-pandas-dataframes), where the outputs of each code cell are also shown.
 
 Happy coding!
 
