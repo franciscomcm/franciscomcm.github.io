@@ -141,4 +141,4 @@ Happy coding!
 
 ### Acknowledgments
 
-Image by <a href="https://unsplash.com/@itookthose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sid Balachandran</a> on <a href="https://unsplash.com/s/photos/pandas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+Image by <a href="https://unsplash.com/@itookthose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sid Balachandran</a> on <a href="https://unsplash.com/s/photos/pandas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
