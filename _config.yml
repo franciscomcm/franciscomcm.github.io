@@ -42,10 +42,10 @@ footer:
       style: icon
       icon_class: fa-orcid
       new_window: true
-    - label: GitLab
-      url: 'https://gitlab.ethz.ch/fcorreia'
-      style: icon
-      icon_class: fa-gitlab
+    # - label: GitLab
+    #   url: 'https://gitlab.ethz.ch/fcorreia'
+    #   style: icon
+    #   icon_class: fa-gitlab
       new_window: true
     - label: GitHub
       url: 'https://github.com/franciscomcm'
