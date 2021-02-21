@@ -1,5 +1,5 @@
 ---
-title: Developing Intra- and Interpersonal competencies
+title: Developing Intra and Interpersonal competencies
 subtitle: 'Practical ways to improve our interactions with others.'
 excerpt: >-
   A successful collaboration usually requires all members to be motivated and willing to contribute to the common goal.
@@ -13,7 +13,7 @@ layout: post
 
 In the past weeks, I participated in a series of workshops entitled “Intra- and Interpersonal Competencies for academia” organised by the Human Resources at ETH Zürich. These were hosted by [Gerald Weber](https://pfirsi.ch/ensemble/gerald-weber/), an improvisation theatre expert, and [Dr Marieke Buffing](https://ch.linkedin.com/in/mfbuffing), ETH research fellow & facilitator.
 
-Even though I could only be present in two of the three units, “Group Dynamics and Social Influence” and “Interpersonal Interaction and Diplomacy”, the knowledge and insights provided by Gerald and Marieke in these two days were astonishing. In this post, I would like to share five practical take-aways I learned that can positively impact your interactions with others, both in personal life and at work:
+Even though I could only be present in two of the three units, “Group Dynamics and Social Influence” and “Interpersonal Interaction and Diplomacy”, the knowledge and insights provided by Gerald and Marieke in these two days were astonishing. In this post, I would like to share five practical take-aways I learned that can positively impact interactions with others, both in personal life and at work:
 
 [1. Look for ways to connect with other people](#connect_with_people)
 
