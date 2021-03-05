@@ -17,7 +17,7 @@ Even though I could only be present in two of the three units, “Group Dynamics
 
 [1. Look for ways to connect with other people](#connect_with_people)
 
-[2. Separate judgement from the production of thoughts](#separate_judgment_ideation)
+[2. Separate judgment from the production of thoughts](#separate_judgment_ideation)
 
 [3. “Socialise the product.”](#socialise_product)
 
@@ -31,7 +31,7 @@ From the beginning, Gerald would actively look for details to start a conversati
 
 Furthermore, another powerful and yet simple behaviour is to relate to what others are saying. In one of the exercises, we purposefully tried to identify actions or traits in our lives that some participants would likely share. If it was the case, everyone who also shared the same situation would say “Me too!” and we would continue with a new example. Relating to others sharing personal information was presented as a great way to break barriers and bring people together.
 
-# <a name="separate_judgment_ideation">2. Separate judgement from the production of thoughts</a>
+# <a name="separate_judgment_ideation">2. Separate judgment from the production of thoughts</a>
 
 We often need to generate new ideas, whether it is for an experiment, a group project, or to plan a memorable event. In this shared brainstorming process, we may feel internal pauses preventing us from saying random thoughts or ideas we think will be turned down by others. In this regard, we learned the importance of improvisation and the power of trusting the association of our first thought to external stimuli. By immediately sharing what comes to mind, we break the connection between ideation and judgment and allow ourselves to fully express our ideas. Ultimately, this strategy should produce enough material that can be later assessed with a more judgmental attitude to decide the best approach.
 
