@@ -67,6 +67,6 @@ This post highlights a glimpse of what I experienced during these events. There 
 Have a great day!
 
 
-### Acknowledgments
+### Acknowledgements
 
 Image by <a href="https://unsplash.com/@nicholasswanson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nicholas Swanson</a> on <a href="https://unsplash.com/s/photos/team?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
