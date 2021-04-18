@@ -17,9 +17,9 @@ In this post, I would like to present four tools that I use daily and help me be
 
 [2. The Timekeeper: Toggl Track](#the_time_keep)
 
-[3. The Energiser](#the_energy)
+[3. The Energiser: Spotify](#the_energy)
 
-[4. The Fitness coach](#the_fit_coach)
+[4. The Fitness coach: StandUp](#the_fit_coach)
 
 > "We are what we repeatedly do." - Aristotle
 
