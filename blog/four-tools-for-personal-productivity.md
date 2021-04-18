@@ -29,7 +29,7 @@ The first tool I would like to present is Notion, where I organise all the notes
 
 Furthermore, I have another section dedicated exclusively to Literature Review, where I keep notes on the papers I read. I find it more convenient to include this information within my Notion workspace (and complement it with a literature manager software to generate citations) because it allows me to reference papers within other pages and provides quick access to any information needed.
 
-My work life as a doctoral student is generally crowded with concurrent tasks and deadlines, topped up with unexpected events that may require immediate action. Therefore, I firmly believe having this centralised platform has a tremendous positive impact on my ability to plan and execute my work efficiently. I thoroughly recommend trying out this tool for yourself! If you would like to try a simplified version of my current framework, here is a template.
+My work life as a doctoral student is generally crowded with concurrent tasks and deadlines, topped up with unexpected events that may require immediate action. Therefore, I firmly believe having this centralised platform has a tremendous positive impact on my ability to plan and execute my work efficiently. I thoroughly recommend trying out this tool for yourself! If you would like to try a simplified version of my current framework, here is a [template](https://www.notion.so/Hub-Template-ba41fb09250e4cb491f023fbf64827a6).
 
 # <a name="the_time_keep">2. The Timekeeper: Toggl Track</a>
 
