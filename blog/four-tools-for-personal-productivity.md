@@ -23,7 +23,7 @@ In this post, I would like to present four tools that I use daily and help me be
 
 > "We are what we repeatedly do." - Aristotle
 
-# <a name="the_hub">The Hub: Notion</a>
+# <a name="the_hub">1. The Hub: Notion</a>
 
 The first tool I would like to present is Notion, where I organise all the notes, To-Do lists and plans of my daily life. It is remarkable how it has such a clean interface without sacrificing flexibility or convenience to customise the workspace to my needs. Currently, my setup contains a primary page that gives an overview of my daily To-Do list, the upcoming tasks and deadlines and the general view of my Journal, where my notes are organised per category (such as meeting minutes, projects, lectures, software related). Additionally, I have sub-views of my Journal that focus on specific categories and provide an additional level of organisation. For example, the ‘Projects’ view sorts my projects according to their status (e.g., ‘Not started’, ‘Ongoing’, ‘Completed’) and the members involved in each one, which helps with navigating and visualising the overall roadmap of the work.
 
