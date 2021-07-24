@@ -2,7 +2,7 @@
 title: A virtual trip to Italy
 subtitle: 'Online conferences can still be extremely valuable.'
 excerpt: >-
-  Minimising sources of distraction is of uttermost importance to help me remain concentrated.
+  This event brings a sense of collective effort to advance our field that is utterly fulfilling.
 date: '2021-07-24'
 thumb_image: images/post_8_thumb.jpg
 image: images/post_8.jpg
