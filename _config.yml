@@ -27,11 +27,11 @@ footer:
     <small>Theme based on Exto</small>
   has_social: false
   social_links:
-    - label: ETH Zürich
-      url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
-      style: icon
-      icon_class: fa-user-circle
-      new_window: true
+#    - label: ETH Zürich
+  #    url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
+  #    style: icon
+  #    icon_class: fa-user-circle-o
+  #    new_window: true
     - label: LinkedIn
       url: 'https://www.linkedin.com/in/franciscomcm'
       style: icon
