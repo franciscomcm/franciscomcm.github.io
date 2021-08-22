@@ -27,25 +27,25 @@ footer:
     <small>Theme based on Exto</small>
   has_social: false
   social_links:
-#    - label: ETH Zürich
-  #    url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
-  #    style: icon
-  #    icon_class: fa-user-circle-o
-  #    new_window: true
+    - label: ETH Zürich
+      url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
+      style: icon
+      icon_class: fab fa-black-tie
+      new_window: true
     - label: LinkedIn
       url: 'https://www.linkedin.com/in/franciscomcm'
       style: icon
-      icon_class: fa-linkedin
+      icon_class: fab fa-linkedin
       new_window: true
     - label: Google Scholar
       url: 'https://scholar.google.com/citations?hl=en&user=kd_6AzgAAAAJ'
       style: icon
-      icon_class: fa-google
+      icon_class: fab fa-google
       new_window: true
     - label: ORCiD
       url: 'https://orcid.org/0000-0002-1651-0457'
       style: icon
-      icon_class: fa-orcid
+      icon_class: fab fa-orcid
       new_window: true
     # - label: GitLab
     #   url: 'https://gitlab.ethz.ch/fcorreia'
@@ -55,17 +55,17 @@ footer:
     - label: GitHub
       url: 'https://github.com/franciscomcm'
       style: icon
-      icon_class: fa-github
+      icon_class: fab fa-github
       new_window: true
     - label: Kaggle
       url: 'https://www.kaggle.com/franciscomcm'
       style: icon
-      icon_class: fa-kaggle
+      icon_class: fab fa-kaggle
       new_window: true
     - label: Twitter
       url: 'https://twitter.com/_franciscomcm'
       style: icon
-      icon_class: fa-twitter
+      icon_class: fab fa-twitter
       new_window: true
 
 sass:
