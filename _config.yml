@@ -30,7 +30,7 @@ footer:
     - label: ETH Zürich
       url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
       style: icon
-      icon_class: fa-address-card
+      icon_class: fa-user-circle
       new_window: true
     - label: LinkedIn
       url: 'https://www.linkedin.com/in/franciscomcm'
