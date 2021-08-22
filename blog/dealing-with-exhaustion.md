@@ -1,6 +1,6 @@
 ---
 title: Dealing with exhaustion
-subtitle: 'Let's break the "Eat, sleep, work, repeat" pattern.'
+subtitle: 'Let’s break the "Eat, sleep, work, repeat" pattern.'
 excerpt: >-
   Reaching our target number of sets for each day gives a rewarding sense of achievement amid seemingly endless tasks.
 date: '2021-08-22'
