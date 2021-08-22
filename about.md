@@ -7,7 +7,7 @@ layout: page
 
 ## Hello,
 
-I am a <a href="https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html">Doctoral student</a> at the <a href="https://www.bone.ethz.ch/"> Laboratory for Bone Biomechanics</a>, <a href="https://ethz.ch/en.html">ETH Zurich</a>.
+I am a <a href="https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html">Doctoral student</a> at the <a href="https://www.bone.ethz.ch/"> Laboratory for Bone Biomechanics</a>, <a href="https://ethz.ch/en.html">ETH Zürich</a>.
 
 My research interests include Image analysis, Data science and Machine Learning and their applications to unravel bone mechanobiology.
 
@@ -22,10 +22,10 @@ As hobbies, I like to run and play tennis, photography and learn new languages.
 ## Education
 
 – <small>**2020 to Present**</small> <br>
-&ensp;&nbsp;Doctoral student in Health Sciences and Technology, ETH Zurich, Switzerland <br>
+&ensp;&nbsp;Doctoral student in Health Sciences and Technology, ETH Zürich, Switzerland <br>
 
 – <small>**2018 to 2020**</small> <br>
-&ensp;&nbsp;Master Degree in Biomedical Engineering, ETH Zurich, Switzerland <br>
+&ensp;&nbsp;Master Degree in Biomedical Engineering, ETH Zürich, Switzerland <br>
 
 – <small>**2015 to 2018**</small> <br>
 &ensp;&nbsp;Bachelor Degree in Biomedical Engineering, University of Coimbra, Portugal <br>

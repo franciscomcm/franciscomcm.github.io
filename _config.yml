@@ -27,6 +27,11 @@ footer:
     <small>Theme based on Exto</small>
   has_social: false
   social_links:
+    - label: ETH Zürich
+      url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
+      style: icon
+      icon_class: fa-address-card
+      new_window: true
     - label: LinkedIn
       url: 'https://www.linkedin.com/in/franciscomcm'
       style: icon
@@ -56,7 +61,7 @@ footer:
       url: 'https://www.kaggle.com/franciscomcm'
       style: icon
       icon_class: fa-kaggle
-      new_window: true 
+      new_window: true
     - label: Twitter
       url: 'https://twitter.com/_franciscomcm'
       style: icon
