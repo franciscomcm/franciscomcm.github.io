@@ -28,7 +28,7 @@ footer:
   has_social: false
   social_links:
     - label: ETH Zürich
-      url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC8xMzcyLC01MzUzOTg1MDM=.html'
+      url: 'https://www.bone.ethz.ch/the-group/people/person-detail.MjUyMTcy.TGlzdC80MjQ3LC01MzUzOTg1MDM=.html'
       style: icon
       icon_class: fab fa-black-tie
       new_window: true
