@@ -51,7 +51,7 @@ At last, I would like to reinforce the importance of keeping a detailed logbook 
 
 On a personal level, there have been multiple instances where I had to pause a project for a few weeks or months to work on a more urgent matter. It is astonishing how having such records helped me resume my work smoothly instead of spending time revising and finding the last challenge at hand. Furthermore, it helps me understand which information is essential for future reference, leading to more detailed logbooks.
 
-As I have described before, I keep my [personal Hub]((https://franciscomcm.github.io/blog/four-tools-for-personal-productivity/#the_hub)) on [Notion](https://www.notion.so), where I integrate my projects' notes and those from the student projects I supervise or from the lecture where I am a TA. I can easily link pages related to the same research aim, and it also facilitates sharing and collaborating with each student by having a dedicated sub-page for each project that students can return to while preparing their report and presentation.
+As I have described before, I keep my [personal hub](https://franciscomcm.github.io/blog/four-tools-for-personal-productivity/#the_hub) on [Notion](https://www.notion.so), where I integrate my projects' notes and those from the student projects I supervise or from the lecture where I am a TA. I can easily link pages related to the same research aim, and it also facilitates sharing and collaborating with each student by having a dedicated sub-page for each project that students can return to while preparing their report and presentation.
 
 # Conclusion
 
