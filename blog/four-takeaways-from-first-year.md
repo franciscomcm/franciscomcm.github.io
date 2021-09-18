@@ -59,7 +59,7 @@ By being resilient, I acknowledge that not all tasks will be exciting or excepti
 Furthermore, I believe these skills can be developed. Long-distance running is one technique I particularly enjoy to mentally train myself to sustain a state of effort for a long time and deal with the challenges I face along the way. Ultimately, I think these practices have an overall positive impact on my daily life.
 
 # Conclusion
-These are some of the learning experiences that have shaped me over the last months, and I am excited to continue this journey and uncover more valuable insights along the way. Please feel free to share what have been the most impactful moments of your life over the last year!
+These are some of the learning experiences that have shaped me over the last months, and I am excited to continue this journey and uncover more valuable insights along the way. Please feel free to [share](https://twitter.com/_franciscomcm) what have been the most impactful moments of your life over the last year!
 
 Have a great day!
 

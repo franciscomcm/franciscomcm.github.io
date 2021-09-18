@@ -54,7 +54,7 @@ Lastly, I would like to describe one of the techniques I used to tackle the sede
 
 # Conclusion
 
-These are some of the tools I find particularly helpful in managing my daily work routine and sustaining my performance for more extended periods. Please feel free to share other techniques or habits you apply in your life!
+These are some of the tools I find particularly helpful in managing my daily work routine and sustaining my performance for more extended periods. Please feel free to [share](https://twitter.com/_franciscomcm) other techniques or habits you apply in your life!
 
 Have a great day!
 

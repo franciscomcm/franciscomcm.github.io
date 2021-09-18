@@ -60,6 +60,6 @@ Furthermore, nurturing social relationships with friends, family, or a significa
 
 # Conclusion
 
-These are some of the ways I deal with the feeling of exhaustion in my daily routines. Nonetheless, everyone has their own working style and please listen to your body and take breaks as appropriate for your needs. I do not wish to promote people to work until they are completely burned out but rather possible ways to manage energy levels in these challenging times. Please feel free to share your thoughts and approaches.
+These are some of the ways I deal with the feeling of exhaustion in my daily routines. Nonetheless, everyone has their own working style and please listen to your body and take breaks as appropriate for your needs. I do not wish to promote people to work until they are completely burned out but rather possible ways to manage energy levels in these challenging times. Please feel free to [share your thoughts](https://twitter.com/_franciscomcm) and approaches.
 
 Have a great day!

@@ -52,6 +52,6 @@ Finally, I was genuinely amazed by the sense of unity in the whole event. It was
 
 # Conclusion
 
-These are some of the aspects I sincerely appreciated in my first Conference. Overall, it was a very positive experience, and I am looking forward to participating in person (hopefully) next year. Please feel free to share your thoughts on such congresses and, if you have attended one before, what were your main takeaways.
+These are some of the aspects I sincerely appreciated in my first Conference. Overall, it was a very positive experience, and I am looking forward to participating in person (hopefully) next year. Please feel free to [share your thoughts](https://twitter.com/_franciscomcm) on such congresses and, if you have attended one before, what were your main takeaways.
 
 Have a great day!

@@ -53,6 +53,6 @@ Ultimately, as we continue cultivating our resilience and making progress on our
 
 
 # Conclusion
-These are some of the steps I consider when assessing my goals and the personal growth I would like to achieve. I am excited to keep exploring new ways to adjust my behaviour towards more fruitful practices. Please feel free to share which techniques you use to build effective habits!
+These are some of the steps I consider when assessing my goals and the personal growth I would like to achieve. I am excited to keep exploring new ways to adjust my behaviour towards more fruitful practices. Please feel free to [share](https://twitter.com/_franciscomcm) which techniques you use to build effective habits!
 
 Have a great day!
