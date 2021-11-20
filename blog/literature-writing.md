@@ -9,7 +9,7 @@ image: images/post_12.jpg
 layout: post
 ---
 
-Hello!
+# Hello!
 
 In the previous post, I presented some of the approaches that have helped me carry out a literature search related to my research project. Often, this process culminates with a written article or chapter where we summarise the most exciting findings and try to provide a digested overview of the field to the readers. Hence, assuming we have narrowed down possible topics and collected and structured multiple search results, we should have enough information to start planning our review document. Therefore, in this post, I would like to share some practical suggestions that made this writing task much more manageable and entertaining.
 

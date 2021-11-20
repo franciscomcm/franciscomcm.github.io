@@ -9,7 +9,7 @@ image: images/post_11.jpg
 layout: post
 ---
 
-Hello!
+# Hello!
 
 An exciting aspect of scientific research is the opportunity to advance knowledge by building on the findings of different experiments. In this regard, an essential step of a new project is to explore what has been achieved in previous studies, generally by surveying the literature available, to understand where and how a meaningful contribution can be made. Nonetheless, certain practices can make this task more efficient, ensuring sufficient literature coverage and facilitating the retrieval of relevant information. Given that I am currently carrying a literature review for my research project, in this post, I would like to share some of the practices that have been particularly useful in this process.
 
