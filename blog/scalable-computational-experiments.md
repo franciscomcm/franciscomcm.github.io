@@ -2,7 +2,7 @@
 title: Scalable computational experiments.
 subtitle: 'My strategies for designing computational studies.'
 excerpt: >-
-  "Given how easy it is for *in silico* experiments to become more complex 'by adding just one more analysis', these initial questions also help decide on the most relevant results and the most effective way to present them clearly in a coherent story."
+  Given how easy it is for in silico experiments to become more complex 'by adding just one more analysis', these initial questions also help decide on the most relevant results and the most effective way to present them clearly in a coherent story.
 date: '2022-02-20'
 thumb_image: images/post_15_thumb.jpg
 image: images/post_15.jpg
