@@ -12,7 +12,7 @@ layout: post
 # Hello!
 
 I participated in my [first conference](https://franciscomcm.github.io/blog/esb-congress/) as a doctoral student almost a year ago. Given the travel restrictions imposed by the pandemic, the event took place virtually, enabling a considerable number of attendees and presentations over the three days. Personally, the excitement of entering this realm of science was genuine, and it was a worthwhile experience overall. Still, the eagerness to participate in person only grew higher!
-Hence, at last, I recently had the chance to participate in my first in-person conference, and it was an entirely new adventure that I would like to share in this post.
+Hence, at last, I recently had the chance to participate in my first in-person conference post-pandemic, and it was an entirely new adventure that I would like to share in this post.
 
 [1. Giving a presentation](#oral_presentation)
 
@@ -49,7 +49,7 @@ Similarly, it was as if the fast-paced style of the sessions, where the presenta
 
 
 # Conclusion
-In conclusion, these are some of the takeaways from my first in-person conference. I am genuinely looking forward to the following experience and sharing it with several of my colleagues that are also planning to go. It is intended to be a larger event, with many parallel sessions of oral and poster presentations simultaneously, so I suspect it will be even more demanding and exciting! At least I am now more familiar with the logistics involved and aware of what to expect at each stage!
+In conclusion, these are some of the takeaways from my first in-person conference post-pandemic. I am genuinely looking forward to the following experience and sharing it with several of my colleagues that are also planning to go. It is intended to be a larger event, with many parallel sessions of oral and poster presentations simultaneously, so I suspect it will be even more demanding and exciting! At least I am now more familiar with the logistics involved and aware of what to expect at each stage!
 
 Please feel free to [share your thoughts and experiences](https://twitter.com/_franciscomcm) at scientific conferences!
 
