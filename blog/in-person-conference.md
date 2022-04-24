@@ -2,7 +2,7 @@
 title: Experiences from an in-person conference.
 subtitle: 'Exciting talks, not enough sleep, engaging discussions!'
 excerpt: >-
-  "As conferences enable researchers to present their most recent results, such discussions provide instant feedback on the work and gather ideas for future tasks."
+  As conferences enable researchers to present their most recent results, such discussions provide instant feedback on the work and gather ideas for future tasks.
 date: '2022-04-24'
 thumb_image: images/post_17_thumb.jpg
 image: images/post_17.jpg
