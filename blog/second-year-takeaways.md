@@ -11,7 +11,7 @@ layout: post
 
 # Hello!
 
-Another year has passed since I joined the Laboratory for Bone Biomechanics as a Doctoral student. After exploring and defining a research proposal in the first year, it was over the last months that the reality of research became apparent, from facing complex challenges in the original plan to balancing multiple frontlines of the project simultaneously. Therefore, following last year's post (Link), I believe it is appropriate to extend the list of takeaways with a few more learning experiences that continue to expand my perspective on life and personal goals.
+Another year has passed since I joined the Laboratory for Bone Biomechanics as a Doctoral student. After exploring and defining a research proposal in the first year, it was over the last months that the reality of research became apparent, from facing complex challenges in the original plan to balancing multiple frontlines of the project simultaneously. Therefore, following last year's [post](https://franciscomcm.github.io/blog/four-takeaways-from-first-year/), I believe it is appropriate to extend the list of takeaways with a few more learning experiences that continue to expand my perspective on life and personal goals.
 
 [1. It's a marathon, not a sprint](#run_forrest)
 
@@ -38,6 +38,6 @@ Another example relates to celebrating each other's small victories; each semest
 At last, another recurrent challenge worth mentioning is the need to adjust to a very dynamic environment. Research can be unpredictable, and we often face roadblocks that require re-designing experimental plans to counter these problems. At the same time, at ETH, there is a maximum duration allowed for doctoral studies, which prevents endless quests from solving a specific scientific question. Therefore, it has been invaluable to learn to balance stubborn perseverance to overcome a problem with the flexibility and creativity needed to adjust and pivot the focus of the project. In other words, being able to fully commit to solving a given question while simultaneously having alternative plans to advance the work when no further progress can be made. Overall, by doing such a process independently, these experiences also strengthen the personal motivation and ability to critically assess a situation and decide on the most sensible course of action.
 
 # Conclusion
-These are some of the learning experiences that have shaped me over the last year, and I am excited to continue this journey and learn more insights. Please feel free to [share ](https://twitter.com/_franciscomcm) what have been the most impactful moments of your life over the last months!
+These are some of the learning experiences that have shaped me over the last year, and I am excited to continue this journey and learn more insights. Please feel free to [share](https://twitter.com/_franciscomcm) what have been the most impactful moments of your life over the last months!
 
 Have a great day!
