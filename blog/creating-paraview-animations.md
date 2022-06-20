@@ -55,6 +55,6 @@ As an additional note, Paraview states and image-processing operations can also 
 
 # Conclusion
 
-Animations can be a valuable asset to include in a presentation, and this is a summary of the workflow I use to produce some of my favourite clips for my talks. Please feel free to [share ](https://twitter.com/_franciscomcm) what are your techniques to design and create appealing content for scientific presentations!
+Animations can be a valuable asset to include in a presentation, and this is a summary of the workflow I use to produce some of my favourite clips for my talks. Please feel free to [share](https://twitter.com/_franciscomcm) what are your techniques to design and create appealing content for scientific presentations!
 
 Have a great day!
