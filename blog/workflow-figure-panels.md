@@ -14,6 +14,16 @@ layout: post
 
 An essential component for effective science communication is the ability to summarise results in clear and interpretable figure panels. Previous posts have highlighted different aspects supporting this goal, from generating auxiliary animated visualisations of the concepts being presented to introducing simple techniques to improve clarity in plots. In this post, I would like to expand on the latter idea and highlight more techniques and resources that have been foundational for my workflow to produce figure panels in my daily work. Note that the following items aim to be implemented when the figure drafts are ready, and we intend to make them more consistent altogether.
 
+
+[1. Standardising figure settings](#figure_settings)
+
+[2. Leveraging grid arrangements](#gridspec_mpl)
+
+[3. Automating plotting tasks](#convenience)
+
+[4. Optional post-processing edits](#postprocessing)
+
+
 # <a name="figure_settings">Standardising figure settings</a>
 
 First, it is important to adjust the settings of the figures to the target application since plots designed for a presentation follow different style requirements than figure panels for publications. Therefore, a useful first step is to explore the ideal definitions and settle on a template of rules that can be applied in subsequent figures. Matplotlib, one of the most well-established plotting package in Python, offers the ability to customise `rcParams` easily which effectively determine the global settings for font-sizes of titles, axis labels, legends or the style of plot lines and markers. Personally, I usually define the size for all fonts and only adjust line and marker styles depending on the type of plots I need. For this purpose, Jupyter notebooks are especially handy as we can easily re-run cells with different settings and compare which settings we prefer.
@@ -67,4 +77,3 @@ As a last step, when all figure panels are ready, it is useful to ask someone el
 # Conclusion
 
 Clear figures and plots are a crucial element of scientific presentations and articles that require considerable effort to produce. I am continuously exploring more effective ways to display my data and communicate the results appropriately. Please feel free to [share](https://twitter.com/_franciscomcm) what are your techniques to design and create clear figures for your scientific work!
-
