@@ -2,7 +2,7 @@
 title: Twitter for academic purposes.
 subtitle: 'Are there benefits of interacting with the blue bird?'
 excerpt: >-
-  In my mind, refactoring code resembles the work needed to restore a car or watch.
+  I believe that it comes down to the users intentionally curating their feeds to match their goals and needs.
 date: '2022-10-23'
 thumb_image: images/post_23_thumb.jpg
 image: images/post_23.jpg
