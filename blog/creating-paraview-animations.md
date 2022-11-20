@@ -1,5 +1,5 @@
 ---
-title: A workflow to design Paraview animations.
+title: A workflow to design Paraview animations
 subtitle: 'Wow, looks fancy!'
 excerpt: >-
   "Paraview, a powerful free visualisation software to produce stunning 2D and 3D visualisations."

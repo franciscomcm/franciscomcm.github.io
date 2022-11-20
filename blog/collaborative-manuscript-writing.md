@@ -1,6 +1,6 @@
 ---
 title: Collaborative manuscript writing
-subtitle: 'Tips to manage feedback from co-authors'
+subtitle: 'Tips to manage feedback from co-authors.'
 excerpt: >-
   Having clear descriptions of the contributions of each author will facilitate managing the workload and settling possible authorship conflicts.
 date: '2022-11-20'

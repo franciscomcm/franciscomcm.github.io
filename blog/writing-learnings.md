@@ -1,5 +1,5 @@
 ---
-title: Practising writing skills.
+title: Practising writing skills
 subtitle: 'My personal experience after an year-long experiment.'
 excerpt: >-
   This exercise led to a valuable understanding of how articles in some journals also follow similar textual patterns, which can be mimicked to try to produce a comparable impact on readers.

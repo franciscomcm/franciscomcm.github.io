@@ -1,5 +1,5 @@
 ---
-title: The art of code refactoring.
+title: The art of code refactoring
 subtitle: 'Can we turn good into great?'
 excerpt: >-
   In my mind, refactoring code resembles the work needed to restore a car or watch.

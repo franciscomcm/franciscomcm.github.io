@@ -1,5 +1,5 @@
 ---
-title: Takeaways from my second year as a doctoral student.
+title: Takeaways from my second year as a doctoral student
 subtitle: 'Slowly and steady, we will get there!'
 excerpt: >-
   Having such "minimum milestones" can be decisive in making some progress and maintaining positive momentum.

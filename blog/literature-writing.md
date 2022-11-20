@@ -1,5 +1,5 @@
 ---
-title: Literature review II - Thriving in writing.
+title: Literature review II - Thriving in writing
 subtitle: 'Summarise, write, revise, repeat.'
 excerpt: >-
   Often, we are dealing with recent literature (e.g., last five years), and by identifying such patterns in the data, we have a better understanding of established and novel practices in the field.

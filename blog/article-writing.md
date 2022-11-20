@@ -1,5 +1,5 @@
 ---
-title: Writing research findings.
+title: Writing research findings
 subtitle: 'One word at a time.'
 excerpt: >-
   I always try to keep a tool to write on, such as a notebook or phone, and collect these seeds of intellectual imagination.

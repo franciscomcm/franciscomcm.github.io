@@ -1,5 +1,5 @@
 ---
-title: Book Club - The Productivity Project.
+title: Book Club - The Productivity Project
 subtitle: 'An insightful journey into the world of productivity.'
 excerpt: >-
   "Managing your time becomes important only after you understand how much energy and focus you will have throughout the day and define what you want to accomplish." (by Chris Bailey)

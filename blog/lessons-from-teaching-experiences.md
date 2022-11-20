@@ -1,5 +1,5 @@
 ---
-title: Learning to advise, advising to learn.
+title: Learning to advise, advising to learn
 subtitle: 'Practical lessons from my experience as an advisor and Teaching Assistant.'
 excerpt: >-
   Providing value to students should be a primary objective of the advisors and support the planning and execution of their projects.

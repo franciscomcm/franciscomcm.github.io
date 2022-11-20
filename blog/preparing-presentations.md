@@ -1,5 +1,5 @@
 ---
-title: Preparing scientific presentations.
+title: Preparing scientific presentations
 subtitle: 'It is challenging to create engaging oral presentations!'
 excerpt: >-
   The underlying idea is to review the presentation and identify which slides could benefit from such animated tools to make the content more accessible and exciting.

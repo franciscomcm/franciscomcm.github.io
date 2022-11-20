@@ -1,5 +1,5 @@
 ---
-title: Literature review I - Surveying the field.
+title: Literature review I - Surveying the field
 subtitle: 'My approach to carry out this extremely challenging task.'
 excerpt: >-
   Journal articles typically include a set of keywords, and these can serve as inspiration to expand our scope and the coverage of the central topic.

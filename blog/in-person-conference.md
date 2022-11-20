@@ -1,5 +1,5 @@
 ---
-title: Experiences from an in-person conference.
+title: Experiences from an in-person conference
 subtitle: 'Exciting talks, not enough sleep, engaging discussions!'
 excerpt: >-
   As conferences enable researchers to present their most recent results, such discussions provide instant feedback on the work and gather ideas for future tasks.

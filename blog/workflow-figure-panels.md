@@ -1,5 +1,5 @@
 ---
-title: Designing figure panels.
+title: Designing figure panels
 subtitle: 'Tips and tricks to standardise figures across different plots.'
 excerpt: >-
   For each figure panel, I write a one-sentence summary to describe what is the main result that readers should take from it.

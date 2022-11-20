@@ -1,5 +1,5 @@
 ---
-title: Twitter for academic purposes.
+title: Twitter for academic purposes
 subtitle: 'Are there benefits of interacting with the blue bird?'
 excerpt: >-
   I believe that it comes down to the users intentionally curating their feeds to match their goals and needs.
