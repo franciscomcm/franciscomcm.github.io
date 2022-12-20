@@ -20,7 +20,7 @@ Academic environments can be quite demanding, especially as teams grow and becom
 
 [3. Celebrate time for social interactions](#social_celebration)
 
-# <a name="local_activities">Provide enough time for discussion and revisions</a>
+# <a name="local_activities">Favouring practical, unusual, local activities</a>
 
 Our lab retreat took place at the end of the fall semester, which is often a stressful period to complete any outstanding goals before the holidays. For that reason, we opted for an afternoon event which we believe represented a balanced time commitment from everyone while still providing sufficient room to plan an extended activity together. Besides, our organiser aimed to integrate an educational and a fun component that promoted healthy social interactions. Therefore, although it was initially planned to visit a nuclear power plant, we started with a tour of a biogas production facility nearby after which we gathered for a cooking competition with bone-related themes.
 
