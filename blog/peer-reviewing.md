@@ -1,6 +1,6 @@
 ---
 title: Takeaways from my first peer review experience
-subtitle: 'How to leverage reviewers' comments to improve our manuscript?'
+subtitle: 'How to leverage comments from reviewers to improve our manuscript?'
 excerpt: >-
   This feedback is vital for authors as it highlights how the general reader would receive and interpret the work.
 date: '2023-02-19'
@@ -11,7 +11,7 @@ layout: post
 
 # Hello!
 
-Journal manuscripts are one of the most established channels for science communication. Typically, researchers will prepare articles at the end of their experiments, sharing their findings and implications for the community. A critical step in this process is the “peer-review” stage that takes place after submission to a journal and where other scientists with expertise on the topic are invited to assess the experimental work, results, and manuscript and determine if it is worth publishing. In other words, it serves as quality control for science, intending to ensure reproducibility, trustworthiness, and proper scientific conduct of the research. Having submitted my first original research article to a journal, I have had the chance to experience this process firsthand and receive reviewer comments. In this post, I would like to share some of the takeaways I took so far from this peer-reviewing process.
+Journal manuscripts are one of the most established channels for science communication. Typically, researchers will prepare articles at the end of their experiments, sharing their findings and implications for the community. A critical step in this process is the peer-review stage that takes place after submission to a journal and where other scientists with expertise on the topic are invited to assess the experimental work, results, and manuscript and determine if it is worth publishing. In other words, it serves as quality control for science, intending to ensure reproducibility, trustworthiness, and proper scientific conduct of the research. Having submitted my first original research article to a journal, I have had the chance to experience this process firsthand and receive reviewer comments. In this post, I would like to share some of the takeaways I took so far from this peer-reviewing process.
 
 [1. Embracing reviewer comments](#rev_comments)
 
