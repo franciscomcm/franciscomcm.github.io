@@ -2,7 +2,7 @@
 title: A word on perserverance.
 subtitle: 'Challenging but worthwhile!'
 excerpt: >-
-  "The unpredictability of science can be discouraging for some!"
+  The unpredictability of science can be discouraging for some!
 date: '2023-06-24'
 thumb_image: images/post_31_thumb.jpg
 image: images/post_31.jpg
@@ -29,7 +29,7 @@ In my experience, it is essential to stay connected to the final goal of our stu
 
 # <a name="student_proj">Supervising student projects</a>
 
-Next, I would like to focus on a scenario that goes beyond our own control. At ETH Zurich, Bachelor and Master students often carry out their thesis or semester projects at laboratories within institutes, advised by doctoral students or post-doctoral staff. Typically, this enables students to experience scientific research very closely, while also providing advisors with additional workforce that can support their own work. However, as these projects are often the first research experience for students, the unpredictability of science can be discouraging for some. 
+Next, I would like to focus on a scenario that goes beyond our own control. At ETH Zurich, Bachelor and Master students often carry out their thesis or semester projects at laboratories within institutes, advised by doctoral students or post-doctoral staff. Typically, this enables students to experience scientific research very closely, while also providing advisors with additional workforce that can support their own work. However, as these projects are often the first research experience for students, the unpredictability of science can be discouraging for some.
 
 As an advisor actively doing my research, interacting with students, and listening to their challenges can be extremely valuable to understand the triggers to their obstacles. Some struggle to cope with the limited time frame of the projects, while others feel under skilled for a specific task. These insights help to calibrate the expectations for such projects and develop project management skills to adapt the goals on the go. Furthermore, through weekly updates, we better understand when we can motivate our students to push further through a problem or to pivot their approach to alternative solutions. Ideally, as advisors, we try to guide students towards a successful outcome, and hope to transmit strategies based on resilience and well-being that build the students' confidence in their abilities and to critically assess their progress in response to unforeseen circumstances, while persevering in the face of adversity. Altogether, these leadership skills even transcend our specific context in academia, representing an asset in any professional setting which makes them worthwhile developing.
 
