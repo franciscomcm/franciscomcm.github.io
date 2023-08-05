@@ -1,5 +1,5 @@
 ---
-title: A word on perserverance.
+title: A word on perserverance
 subtitle: 'Challenging but worthwhile!'
 excerpt: >-
   The unpredictability of science can be discouraging for some!

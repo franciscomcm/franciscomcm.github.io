@@ -1,5 +1,5 @@
 ---
-title: Takeaways from my third year as a doctoral student.
+title: Takeaways from my third year as a doctoral student
 subtitle: 'Towards scientific enlightenment!'
 excerpt: >-
   It is vital to be aware of our personal goals and tailor our path accordingly.
