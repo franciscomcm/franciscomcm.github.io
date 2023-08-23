@@ -1,8 +1,8 @@
 ---
-title: Large language models support in academic research.
+title: Large language models in academic research
 subtitle: 'Can such models make research more productive?'
 excerpt: >-
-  "By asking to produce a more efficient version of the output, a new script is provided with many performance and memory optimisations."
+  By asking to produce a more efficient version of the output, a new script is provided with many performance and memory optimisations.
 date: '2023-08-23'
 thumb_image: images/post_33_thumb.jpg
 image: images/post_33.jpg
@@ -47,4 +47,3 @@ I am genuinely amazed at the potential of such large language models and the pos
 Please feel free to [share](https://twitter.com/_franciscomcm) your thoughts on these large language models!
 
 Have a great day!
-
