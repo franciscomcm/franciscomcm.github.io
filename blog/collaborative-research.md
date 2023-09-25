@@ -1,8 +1,8 @@
 ---
-title: Experiences from a demanding collaborative research project.
+title: Experiences from a demanding collaborative research project
 subtitle: 'Integrating knowledge in a synergistic way!'
 excerpt: >-
-  "Intellectual contributions should also be discussed and agreed upon upfront, as these will define the basis for authorship orders of such articles."
+  Intellectual contributions should also be discussed and agreed upon upfront, as these will define the basis for authorship orders of such articles.
 date: '2023-09-24'
 thumb_image: images/post_34_thumb.jpg
 image: images/post_34.jpg
@@ -49,4 +49,3 @@ Collaborative projects can be highly ambitious and require consistent and clear 
 Please feel free to [share](https://twitter.com/_franciscomcm) your thoughts on collaborative research!
 
 Have a great day!
-
