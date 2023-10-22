@@ -1,8 +1,8 @@
 ---
-title: Ideas for collective success through cooperation.
+title: Ideas for collective success through cooperation
 subtitle: 'Cultivating a culture of excellence through teamwork!'
 excerpt: >-
-  "By approaching each other with curiosity and respect, we can enable peer-to-peer mentorship, where more experienced members can share their expertise."
+  By approaching each other with curiosity and respect, we can enable peer-to-peer mentorship, where more experienced members can share their expertise.
 date: '2023-10-22'
 thumb_image: images/post_35_thumb.jpg
 image: images/post_35.jpg
