@@ -35,7 +35,7 @@ Another aspect that should naturally evolve with time is our field knowledge. Id
 > "Progress in science depends on new techniques, new discoveries and new ideas, probably in that order." - Sydney Brenner
 
 
-# <a name="intuition">New ituition</a>
+# <a name="intuition">New intuition</a>
 
 At last, an underestimated skill that should grow with time is our scientific intuition. In our group, we actively promote scientific discussions in group meetings, presenting novel results or debating future projects, and by participating in conferences that enable us to interact with other researchers in our field. Eventually, this exposure calibrates our ability to organise and present information, whether focusing on figure panels or written abstracts and articles. Not only that, it also becomes more intuitive how to pitch our work to our target community and collect meaningful feedback that we can use to further advance research. I have also witnessed how practical this skill can be when discussing ideas with more junior colleagues. By nurturing scientific intuition over the years, it is easier to identify the most compelling aspects of our work and convey them in a way that captures interest. This perspective allows us to provide strategic guidance to junior team members as they establish themselves.
 
