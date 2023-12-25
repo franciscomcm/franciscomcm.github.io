@@ -51,3 +51,7 @@ In conclusion, this hackathon's collaborative and transparent nature created an 
 Please feel free to [share](https://twitter.com/_franciscomcm) your experiences from previous hackathons!
 
 Have a great day!
+
+### Acknowledgements
+
+Image generated with LimeWire.
