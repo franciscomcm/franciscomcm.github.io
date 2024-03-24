@@ -58,4 +58,4 @@ Have a great day!
 
 ### Acknowledgements
 
-As an experiment, parts of this text were designed with the support of Claude-3 Haiku and Grammarly-AI based on provided notes. The image was generated with Playground.
+As an experiment, parts of this text were edited with the support of Claude-3 Haiku and Grammarly-AI based on provided notes. The image was generated with Playground.

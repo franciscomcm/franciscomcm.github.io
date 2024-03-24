@@ -65,4 +65,4 @@ Have a great day!
 
 ### Acknowledgments
 
-As an experiment, parts of this text were designed with the support of Chat-GPT based on additional notes.
+As an experiment, parts of this text were edited with the support of Chat-GPT based on notes provided.
