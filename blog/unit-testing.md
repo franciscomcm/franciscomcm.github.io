@@ -1,6 +1,6 @@
 ---
 title: The importance of unit testing in Python software development
-subtitle: 'Improving eliability, efficiency, and maintainability of research code.'
+subtitle: 'Improving reliability, efficiency, and maintainability of research code.'
 excerpt: >-
   Developing unit tests alongside code development forces an active dialogue between two complementary perspectives.
 date: '2024-03-24'
