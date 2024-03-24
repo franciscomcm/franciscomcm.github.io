@@ -1,6 +1,6 @@
 ---
-title: Moving more for better health.
-subtitle: ''
+title: Moving more for better health
+subtitle: 'How simple exercises improve well-being.'
 excerpt: >-
   Simple changes to counter physical and mental effects of prolonged sitting.
 date: '2024-01-21'
