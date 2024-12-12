@@ -28,7 +28,7 @@ The scientific community, motivated by an ambitious drive to publish novel findi
 
 # <a name="explore_focus">Balancing exploration and focus</a>
 
-Research seems rarely linear, and learning to manage the exploration of scientific questions requires a delicate balance of curiosity, discipline, and strategic thinking. Central to this process is understanding when to continue investigating and when to consolidate findings.
+Research is rarely linear, and learning to manage the exploration of scientific questions requires a delicate balance of curiosity, discipline, and strategic thinking. Central to this process is understanding when to continue investigating and when to consolidate findings.
 
 When publishing a paper through a journal, there is a peer-review process that aims to check the quality of the work and often provides critical feedback that can improve the paper before publication. More broadly, it provides an invaluable external perspective that can transform a good research project into an exceptional one. With independent and often unbiased viewpoints, reviewers can identify potential gaps, raise critical questions, and provide specific suggestions for improvement. However, this does not mean that researchers should interpret this as a mandate for endless experimentation, especially as the time to respond to reviewers is also limited. In fact, it can be counterproductive to spend excessive time generating additional experiments without a clear and defined purpose. Defining the boundary between what is genuinely "necessary" and what might be merely "nice to have" requires a sophisticated combination of scientific intuition and guided wisdom, typically drawn from the mentorship of more experienced researchers such as supervisors.
 
