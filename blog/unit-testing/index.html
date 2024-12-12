@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>The importance of unit testing in Python software development - Francisco Correia Marques</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="Developing unit tests alongside code development forces an active dialogue between two complementary perspectives."/>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWVNTWXXQE"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WWVNTWXXQE');
+        </script>
+    </head>
+    <body>
+        
+        <div id="page" class="site palette-light accent-pink">
+  <header id="masthead" class="site-header outer">
+  <div class="inner">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        
+        
+        <p class="site-title"><a href='/'>FMCM</a></p>
+        
+      </div><!-- .site-branding -->
+      
+      
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-inside">
+          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
+          <ul class="menu">
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/" >
+  
+  Home
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/blog/" >
+  
+  Blog
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/about/" >
+  
+  About
+  
+</a>
+
+              </li>
+            
+          </ul><!-- .menu -->
+        </div><!-- .site-nav-inside -->
+      </nav><!-- .site-navigation -->
+      
+    </div><!-- .site-header-inside -->
+  </div><!-- .inner -->
+</header><!-- .site-header -->
+
+  <main id="content" class="site-content">
+    <div class="inner outer">
+
+  <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title line-top">The importance of unit testing in Python software development</h1>
+      
+      
+      <div class="post-subtitle">
+        Improving reliability, efficiency, and maintainability of research code.
+      </div>
+      
+    </header>
+    
+    
+    <div class="post-image">
+      <img src="/images/post_40.jpg" alt="The importance of unit testing in Python software development" />
+    </div>
+    
+    <div class="post-content inner-sm">
+      <h1 id="hello">Hello!</h1>
+
+<p>Unit testing is a software practice that follows software development by assessing code performance according to a defined standard. It often aims to ensure that a function produces the desired output or fails for specific edge cases. With the rise of larger, more complex software packages, unit testing helps to ensure code remains reliable, reproducible on different systems and error-free. In academia, many scientific journals request that code developed for publication be shared according to open-source standards. As a result, adopting software practices such as version control, automated testing, and continuous integration has become more prevalent in research. In this context, it is imperative to understand the importance of unit testing in software development and its potential impact on research practices. In my research work, I am also preparing a Python package and have recently started incorporating unit testing into my development. In this post, I would like to share my thoughts and experience about designing unit tests for the software I am developing.</p>
+
+<p><a href="#testing_tools">1. Unit-testing frameworks in Python</a></p>
+
+<p><a href="#implementation_testing">2. Implementation of unit testing during Python software development</a></p>
+
+<p><a href="#test_benefits">3. Benefits of unit-testing in Python software development</a></p>
+
+<h1 id="unit-testing-frameworks-in-python"><a name="testing_tools">Unit-testing frameworks in Python</a></h1>
+
+<p>In our group, most of our software is developed in Python; hence, I will focus on the tools available in this programming language. Indeed, several frameworks have been developed for unit testing, and after some online search alongside fruitful discussions with some LLMs, I have selected <code class="highlighter-rouge">pytest</code> for my package. In my opinion, this package provided a simple and intuitive structure for writing and running tests. Furthermore, the report produced was straightforward and customisable (e.g., it was simple to add additional information regarding which lines in each file were not covered by the tests).</p>
+
+<p>Previous colleagues who set up the groundwork for our lab’s Python development environment had included some unit test-based infrastructure in the pipelines. This package is part of the Python standard library and provides a class-based approach to unit testing. Eventually, some tests were also integrated with <code class="highlighter-rouge">nose</code>, another package available in Python with helpful customisation options for our existing needs.</p>
+
+<p>Nonetheless, a common trait of these frameworks is to provide a consistent and standardised approach to writing tests, making it easier for developers to understand and maintain the test suite. Furthermore, as we are currently using GitLab and have already established pipelines to run such tests, we can easily set up new pipelines for additional packages under development. Crucially, even while developing locally on my laptop, I can conveniently develop tests and run them to ensure they function as expected before adding them to the test collection of the complete pipeline.</p>
+
+<h1 id="implementation-of-unit-testing-during-python-software-development"><a name="implementation_testing">Implementation of unit testing during Python software development</a></h1>
+
+<p>From a practical standpoint, unit tests aim to evaluate small portions of the codebase. Essentially, one test would focus on each “unit” of the code, designed for a particular purpose. As hinted before, the goal is to ensure that when an input meets the expected conditions, it produces the desired output (in fact, comparing the function’s output and the expected result is a crucial step of such unit-testing frameworks).</p>
+
+<p>Furthermore, writing unit tests also helps to plan and develop code in small, focused functions designed for a single task. Comparably, it also helps to identify parts of a larger function that could be individualised to facilitate testing and code compartmentalisation. Eventually, maintaining a high level of modularity in the codebase makes it easier to maintain, understand, and expand with newer methods.</p>
+
+<p>In addition, a key advantage of unit testing is that it helps identify (unforeseen) edge cases. Indeed, I have already found ways to improve the robustness of some functions against incorrect input arguments, leading to an overall more reliable and versatile implementation. At the same time, the same exercise helps identify bugs in the code that may not have been noticed so far since the function had not been tested against other cases and inputs. In other words, developing unit tests alongside code development forces an active dialogue between two complementary perspectives, one aiming at fulfilling one purpose most efficiently and cleanly possible (the primary goal of the function) and another aiming at understanding what alternative ways to reach this goal can go wrong.</p>
+
+<h1 id="benefits-of-unit-testing-in-python-software-development"><a name="test_benefits">Benefits of unit-testing in Python software development</a></h1>
+
+<p>At last, I would like to recap the main advantages of unit testing during software development. First, scientific work published with adequate unit tests provides a strong reliability stamp on the results proposed. Furthermore, being open source, the scientific community can further inspect the code and build new advancements based on this groundwork. Again, the fact that unit tests cover the original codebase allows developers to make changes, knowing they can quickly identify and address any regressions confidently.</p>
+
+<p>Next, unit tests ensure that software works as expected by clearly indicating what type of input should be provided and what the expected behaviour of individual components is. This effort helps ensure the software continues functioning as expected, even as new features are added or existing ones are modified.
+Additionally, it sets a standard for software code quality. With the rise of LLMs for code development, it is more straightforward to produce drafts of scripts that can be further adapted to a particular goal. By incorporating unit tests from this stage, developers can immediately identify and fix issues and have a thoughtful design process for the software.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Overall, the benefits of unit testing in software development make this task an essential practice for anyone looking to build robust, reliable, and high-quality applications. By investing in a comprehensive unit testing collection, developers can reduce the risk of bugs, improve the overall quality of their codebase, and deliver software that meets the needs of their users. In academia, where such software often becomes the basis for novel, exciting scientific findings, building trust in the tools used to uncover these new insights can only be beneficial for advancing scientific knowledge further.</p>
+
+<p>Please feel free to <a href="https://twitter.com/_franciscomcm">share</a> your thoughts about unit testing during software development!</p>
+
+<p>Have a great day!</p>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>As an experiment, parts of this text were edited with the support of Claude-3 Haiku and Grammarly-AI based on provided notes. The image was generated with Playground.</p>
+
+    </div>
+    <footer class="post-meta inner-sm">
+      <time class="published" datetime="2024-03-24 00:00">March 24, 2024</time>
+    </footer>
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="read-next inner-sm">
+    <h2 class="read-next-title line-top">Read Next</h2>
+    <div class="post-feed grid grid-col-2">
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Previous post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Next post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+    </div>
+  </nav>
+  -->
+
+</div><!-- .inner -->
+
+  </main><!-- .site-content -->
+  <footer id="colophon" class="site-footer outer">
+  <div class="inner">
+    <div class="site-footer-inside">
+      <div class="site-info">
+        
+        
+        <span class="copyright">Francisco Correia Marques 2020 <br> <small>Theme based on Exto</small></span>
+        
+        
+      </div><!-- .site-info -->
+      
+      
+    </div><!-- .site-footer-inside -->
+  </div><!-- .inner -->
+</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+        <!-- Scripts -->
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body> 
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>The art of code refactoring - Francisco Correia Marques</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="In my mind, refactoring code resembles the work needed to restore a car or watch."/>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWVNTWXXQE"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WWVNTWXXQE');
+        </script>
+    </head>
+    <body>
+        
+        <div id="page" class="site palette-light accent-pink">
+  <header id="masthead" class="site-header outer">
+  <div class="inner">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        
+        
+        <p class="site-title"><a href='/'>FMCM</a></p>
+        
+      </div><!-- .site-branding -->
+      
+      
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-inside">
+          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
+          <ul class="menu">
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/" >
+  
+  Home
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/blog/" >
+  
+  Blog
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/about/" >
+  
+  About
+  
+</a>
+
+              </li>
+            
+          </ul><!-- .menu -->
+        </div><!-- .site-nav-inside -->
+      </nav><!-- .site-navigation -->
+      
+    </div><!-- .site-header-inside -->
+  </div><!-- .inner -->
+</header><!-- .site-header -->
+
+  <main id="content" class="site-content">
+    <div class="inner outer">
+
+  <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title line-top">The art of code refactoring</h1>
+      
+      
+      <div class="post-subtitle">
+        Can we turn good into great?
+      </div>
+      
+    </header>
+    
+    
+    <div class="post-image">
+      <img src="/images/post_22.jpg" alt="The art of code refactoring" />
+    </div>
+    
+    <div class="post-content inner-sm">
+      <h1 id="hello">Hello!</h1>
+
+<p>Programming is an essential skill for my scientific work, constantly challenging me to learn new techniques and improve my capabilities. Furthermore, as with spoken languages, it enables developers to easily share code and tools others can interpret and use to create novel products. Nonetheless, this process may require refactoring existing code to our needs or achieving improved performance and reliability. In my case, it happened that I picked up projects started by previous doctoral students, which required exploring and understanding their code and adapting it to the questions we aimed to answer in newer studies. Therefore, in this post, I would like to share my workflow to review and refactor code.</p>
+
+<p><a href="#code_explorer">1. Code exploration</a></p>
+
+<p><a href="#experimenting">2. Rewriting and experimentation</a></p>
+
+<p><a href="#validation">3. Validation and benchmarking</a></p>
+
+<h1 id="code-exploration"><a name="code_explorer">Code exploration</a></h1>
+
+<p>In my mind, refactoring code resembles the work needed to restore a car or watch. The entire piece is disassembled into individual parts, and their state is carefully evaluated. Some may require a replacement, while others are deemed acceptable, and the components can be mounted again to restore the original shape. When starting out, a helpful first step is to collect all the scripts required and understand the flow of the analysis from start to finish. Depending on the project’s magnitude, writing or drawing such a schematic can be very helpful, giving clarity on which classes and functions are most important and providing a first impression of the state of the code and which sections may require further rework.</p>
+
+<p>After this initial overview, I perform a more careful review where the goal is to fully comprehend the purpose of each line. At this stage, I aim to generously add comments throughout the scripts explaining relevant details and, crucially, leave notes for potential improvements. From a practical perspective, I complement these comments with one-word flags (like: <code class="highlighter-rouge">TRY</code>, <code class="highlighter-rouge">TODO</code>, <code class="highlighter-rouge">CHECK</code>) that target different stages of the refactoring process and help me scan long scripts more efficiently and prioritise the work ahead.</p>
+
+<p>At this point, not only should we have a solid understanding of the entire workflow, but we also identified which pieces require more attention or should be optimised, and we can proceed.</p>
+
+<h1 id="rewriting-and-experimentation"><a name="experimenting">Rewriting and experimentation</a></h1>
+
+<p>Refactoring existing code should have the final goal in mind, balancing the effort and the benefits of replacing the sections identified previously. Specifically, some projects may justify rewriting an entire class to make it more user-friendly, while improving individual functions of a script may suffice for others. Based on the comments left in the first review stage, I begin by searching which ones can be solved by packages already available. Very often, someone has already faced a similar problem and may have developed a working tool that can be imported to replace more rudimentary implementations produced in the initial stages of the development of the code. Furthermore, I find it helpful to keep the workflow diagram nearby as it has happened that such packages end up simplifying steps of the analysis by providing several features simultaneously (which would otherwise be computed individually). Conversely, this step can also highlight the (undocumented) reason for certain design decisions in the pipeline and why it may have intentionally not relied on existing packages to compute a particular step.</p>
+
+<p>This step can involve quite some trial and error to identify the best approach to improve a given function. My strategy is to save intermediate outputs of the analysis that act as checkpoints, helping to focus on the section at hand without having to re-run the entire workflow every time to reach the function of interest. Furthermore, I still add several comments (often with the <code class="highlighter-rouge">CHECK</code> flag) with ideas for further improvements if the current implementation is not good enough or if anticipated bottlenecks end up having a strong influence on the execution.</p>
+
+<p>I find it helpful to carry out this step in Jupyter Notebooks, where it is effortless to try out several ideas and progressively build the final function in subsequent cells. Additionally, breaking tasks into individual steps gives a more refined perception of their performance requirements, which can benefit code optimisation stages. Also, depending on the use case and the input data size, it may help to generate a smaller, working version of the dataset that can efficiently be loaded for development purposes.</p>
+
+<blockquote>
+  <p>“The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimisation is the root of all evil (or at least most of it) in programming.” -  Donald Knuth</p>
+</blockquote>
+
+<h1 id="validation-and-benchmarking"><a name="validation">Validation and benchmarking</a></h1>
+
+<p>Finally, having revamped individual functions of the workflow, it is essential to ensure they still produce the same results as the original code. For instance, a pipeline may have been developed to explore a scientific question and validated, but it never got fully optimised for general use. In such cases, I try to isolate the variables or values at different checkpoints in the new workflow with an analogous element on the original pipeline and perform a stepwise comparison. From specific values, we can advance to complete functions and expand to the whole workflow; I also find it helpful to keep track of each step’s execution time and memory consumption as it provides a more tangible metric to compare both versions.</p>
+
+<p>It is also essential to review all comments left initially and give special attention to (<code class="highlighter-rouge">CHECK</code>-like) flags referring to possible issues to ensure these are not interfering with the code execution. As a final step, the entire dataset may be analysed, and the output compared with that generated independently by the original creator of the workflow.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Understanding and improving code can be challenging; nonetheless, developing the skills needed to identify bottlenecks and planning more efficient solutions for each step can be extremely valuable to becoming a proficient programmer. Furthermore, I find it very rewarding to learn and implement good programming practices, which make code refactoring much more manageable and, ultimately, come up with improved scripts than those we started.</p>
+
+<p>Please feel free to <a href="https://twitter.com/_franciscomcm">share</a> what are your techniques to refactor code!</p>
+
+<p>Have a great day!</p>
+
+    </div>
+    <footer class="post-meta inner-sm">
+      <time class="published" datetime="2022-09-18 00:00">September 18, 2022</time>
+    </footer>
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="read-next inner-sm">
+    <h2 class="read-next-title line-top">Read Next</h2>
+    <div class="post-feed grid grid-col-2">
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Previous post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Next post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+    </div>
+  </nav>
+  -->
+
+</div><!-- .inner -->
+
+  </main><!-- .site-content -->
+  <footer id="colophon" class="site-footer outer">
+  <div class="inner">
+    <div class="site-footer-inside">
+      <div class="site-info">
+        
+        
+        <span class="copyright">Francisco Correia Marques 2020 <br> <small>Theme based on Exto</small></span>
+        
+        
+      </div><!-- .site-info -->
+      
+      
+    </div><!-- .site-footer-inside -->
+  </div><!-- .inner -->
+</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+        <!-- Scripts -->
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body> 
+</html>

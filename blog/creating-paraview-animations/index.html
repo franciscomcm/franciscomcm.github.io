@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>A workflow to design Paraview animations - Francisco Correia Marques</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content=""Paraview, a powerful free visualisation software to produce stunning 2D and 3D visualisations.""/>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWVNTWXXQE"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WWVNTWXXQE');
+        </script>
+    </head>
+    <body>
+        
+        <div id="page" class="site palette-light accent-pink">
+  <header id="masthead" class="site-header outer">
+  <div class="inner">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        
+        
+        <p class="site-title"><a href='/'>FMCM</a></p>
+        
+      </div><!-- .site-branding -->
+      
+      
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-inside">
+          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
+          <ul class="menu">
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/" >
+  
+  Home
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/blog/" >
+  
+  Blog
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/about/" >
+  
+  About
+  
+</a>
+
+              </li>
+            
+          </ul><!-- .menu -->
+        </div><!-- .site-nav-inside -->
+      </nav><!-- .site-navigation -->
+      
+    </div><!-- .site-header-inside -->
+  </div><!-- .inner -->
+</header><!-- .site-header -->
+
+  <main id="content" class="site-content">
+    <div class="inner outer">
+
+  <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title line-top">A workflow to design Paraview animations</h1>
+      
+      
+      <div class="post-subtitle">
+        Wow, looks fancy!
+      </div>
+      
+    </header>
+    
+    
+    <div class="post-image">
+      <img src="/images/post_19.jpg" alt="A workflow to design Paraview animations" />
+    </div>
+    
+    <div class="post-content inner-sm">
+      <h1 id="hello">Hello!</h1>
+
+<p>In a recent post, I shared some techniques for preparing <a href="https://franciscomcm.github.io/blog/preparing-presentations/">scientific presentations</a>, such as conferences or the institute’s internal progress reports. Among them, I discussed how I enjoy adding animated visualisations to make the work more appealing to a general audience while also helping to illustrate a given complex operation of the project. To this end, we use routinely in the group is <a href="https://www.paraview.org">Paraview</a>, a powerful free visualisation software that enables stunning 2D and 3D visualisations and can be easily manipulated with Python scripts. Therefore, today I would like to share my experience designing and creating animations with this tool.</p>
+
+<p><a href="#storyboard">1. Drafting a storyboard</a></p>
+
+<p><a href="#experimenting_views">2. Experimental phase</a></p>
+
+<p><a href="#production">3. Producing the animation</a></p>
+
+<p><a href="#export_setup">4. Exporting step</a></p>
+
+<h1 id="drafting-a-storyboard"><a name="storyboard">Drafting a storyboard</a></h1>
+
+<p>As a first step, we need to decide what we aim to illustrate and how it should support the remaining elements of the talk. The central concept is to determine what data should be prepared and in what formats and define a rough idea of the sequence of events to be shown. Since we often need to include several slides, this step also helps identify individual sections that can be presented at a time. Additionally, from my experience, rendering animations Paraview on a laptop can become a very intensive task; therefore, preparing separate blocks that can later be edited as a more extended sequence makes this workflow much more manageable.</p>
+
+<h1 id="experimental-phase"><a name="energy_manager">Experimental phase</a></h1>
+
+<p>Next, I perform some visualisation trials to see if what was planned above translates to the desired animations. In other words, as we start rendering the data and implementing our ideas, we may encounter some limitations in what can be visualised or, more importantly, realise that the result is not as intelligible as we expected. This step helps refine the original plan and often pushes our creativity to make the best use of the software’s capabilities to produce our idealised clip.</p>
+
+<p>For example, in a recent animation I created, such trials helped me identify how the opacity of an image could be adjusted to make the underlying process clearer, as well as determine the best camera position. Indeed, a handy feature in Paraview is the ability to save camera positions, which is extremely useful to store transition points in the animation or compare alternative views conveniently. Specifically, as we can define a custom path for the camera movement, saving a set of start- and endpoints for the camera for each sequence is worthwhile.</p>
+
+<p>Other factors worth assessing during this phase are the expected total duration of the animation, defining a convenient image size and the frame rate, which are intrinsically related to the purpose of the clip in the presentation.</p>
+
+<p>Finally, a crucial step during such experiments is to save the state of Paraview (there is an option available for this in the menu) for each draft created. As the name implies, this feature stores all the information related to the data being visualised, the operations performed and camera positions, making it extremely simple to recreate a given clip. Since the final animation will ideally be built upon the most promising ideas, these files are treasured to expedite this task. Another advantage of these State files is that they allow changing the input data (as long as the new file matches the format/datasets of the original file) when opening them, which gives great flexibility to still adjust the raw data after defining several processing operations.</p>
+
+<h1 id="producing-the-animation"><a name="production">Producing the animation</a></h1>
+
+<p>Having converged on a feasible plan and prepared all the necessary data, we may begin the production phase. Usually, I start by selecting the saved states I liked the most and importing the required data. At this point, the outstanding tasks are adding image-enhancing operations and ensuring that our camera and object movements still follow our intended trajectories.</p>
+
+<p>Regarding the former, Paraview has a handy tool to smooth surfaces which helps turn voxel-based images, as is the case for our micro-Computed Tomography images, into a clean structure (note: applying the smoothing filter requires calling the “Extract Surface” tool first). Depending on the image, we can adjust the number of smoothing iterations and related parameters, influencing the result and the time needed to apply it. For instance, I often pick a value between 800-1000, which takes a few seconds to run; this detail is relevant as this operation must be performed for each frame of the exported animation, directly affecting the total export time.</p>
+
+<p>Concerning the camera movements, it has happened that after making some adjustments to the data, portions of the image would be momentarily out-of-scene, requiring an additional revision of the camera positions to fix it.</p>
+
+<h1 id="exporting-step"><a name="export_setup">Exporting step</a></h1>
+
+<p>At this point, we should have produced a state file for each clip segment that renders all the data to its final format. However, before exporting all frames, there is an additional feature in Paraview worth activating for enhanced quality: the Raycaster. This tool requires high computational resources (which is why I only activate it at the end) but produces very clean renderings for each frame; it also contains several parameters determining the number of rays to cast per pixel and the illumination scale. Finally, I should add that if there are overlapping objects of changing opacity during the animation, this feature can produce erroneous results.</p>
+
+<p>Usually, I export the first round of trials for all states without a Raycaster and a lower framerate to get a feeling for the complete sequence. After reviewing all steps, I activate the Raycaster, set the desired number of frames (usually 60FPS), and let the computer export each frame to a folder. Also, I usually set the exported image size to twice the canvas size for improved quality after resizing operations.</p>
+
+<p>The final step is to use any GIF maker or QuickTime Player to open the image sequence and convert the frames to a movie clip.</p>
+
+<p>As an additional note, Paraview states and image-processing operations can also be performed with the corresponding Python module, which enables rendering images on High-Performance Computing platforms, if available, and conveniently allows scaling the exporting step to multiple samples in parallel, if necessary. I haven’t yet explored such possibilities extensively, which is why I have left them out of this post.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Animations can be a valuable asset to include in a presentation, and this is a summary of the workflow I use to produce some of my favourite clips for my talks. Please feel free to <a href="https://twitter.com/_franciscomcm">share</a> what are your techniques to design and create appealing content for scientific presentations!</p>
+
+<p>Have a great day!</p>
+
+    </div>
+    <footer class="post-meta inner-sm">
+      <time class="published" datetime="2022-06-19 00:00">June 19, 2022</time>
+    </footer>
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="read-next inner-sm">
+    <h2 class="read-next-title line-top">Read Next</h2>
+    <div class="post-feed grid grid-col-2">
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Previous post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Next post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+    </div>
+  </nav>
+  -->
+
+</div><!-- .inner -->
+
+  </main><!-- .site-content -->
+  <footer id="colophon" class="site-footer outer">
+  <div class="inner">
+    <div class="site-footer-inside">
+      <div class="site-info">
+        
+        
+        <span class="copyright">Francisco Correia Marques 2020 <br> <small>Theme based on Exto</small></span>
+        
+        
+      </div><!-- .site-info -->
+      
+      
+    </div><!-- .site-footer-inside -->
+  </div><!-- .inner -->
+</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+        <!-- Scripts -->
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body> 
+</html>

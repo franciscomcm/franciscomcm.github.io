@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>Designing figure panels - Francisco Correia Marques</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="google" content="notranslate" />
+        <meta name="description" content="For each figure panel, I write a one-sentence summary to describe what is the main result that readers should take from it."/>
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/assets/css/main.css">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WWVNTWXXQE"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-WWVNTWXXQE');
+        </script>
+    </head>
+    <body>
+        
+        <div id="page" class="site palette-light accent-pink">
+  <header id="masthead" class="site-header outer">
+  <div class="inner">
+    <div class="site-header-inside">
+      <div class="site-branding">
+        
+        
+        <p class="site-title"><a href='/'>FMCM</a></p>
+        
+      </div><!-- .site-branding -->
+      
+      
+      <button id="menu-open" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span class="icon-menu" aria-hidden="true"></span></button>
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-inside">
+          <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Open Menu</span><span class="icon-close" aria-hidden="true"></span></button>
+          <ul class="menu">
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/" >
+  
+  Home
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/blog/" >
+  
+  Blog
+  
+</a>
+
+              </li>
+            
+              
+              
+              <li class="menu-item">
+                
+                
+<a class="" href="/about/" >
+  
+  About
+  
+</a>
+
+              </li>
+            
+          </ul><!-- .menu -->
+        </div><!-- .site-nav-inside -->
+      </nav><!-- .site-navigation -->
+      
+    </div><!-- .site-header-inside -->
+  </div><!-- .inner -->
+</header><!-- .site-header -->
+
+  <main id="content" class="site-content">
+    <div class="inner outer">
+
+  <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title line-top">Designing figure panels</h1>
+      
+      
+      <div class="post-subtitle">
+        Tips and tricks to standardise figures across different plots.
+      </div>
+      
+    </header>
+    
+    
+    <div class="post-image">
+      <img src="/images/post_20.jpg" alt="Designing figure panels" />
+    </div>
+    
+    <div class="post-content inner-sm">
+      <h1 id="hello">Hello!</h1>
+
+<p>An essential component for effective science communication is the ability to summarise results in clear and interpretable figure panels. Previous posts have highlighted different aspects supporting this goal, from generating auxiliary animated visualisations of the concepts being presented to introducing simple techniques to improve clarity in plots. In this post, I would like to expand on the latter idea and highlight more techniques and resources that have been foundational for my workflow to produce figure panels in my daily work. Note that the following items aim to be implemented when the figure drafts are ready, and we intend to make them more consistent altogether.</p>
+
+<p><a href="#figure_settings">1. Standardising figure settings</a></p>
+
+<p><a href="#gridspec_mpl">2. Leveraging grid arrangements</a></p>
+
+<p><a href="#convenience">3. Automating plotting tasks</a></p>
+
+<p><a href="#postprocessing">4. Optional post-processing edits</a></p>
+
+<h1 id="standardising-figure-settings"><a name="figure_settings">Standardising figure settings</a></h1>
+
+<p>First, it is important to adjust the settings of the figures to the target application since plots designed for a presentation follow different style requirements than figure panels for publications. Therefore, a useful first step is to explore the ideal definitions and settle on a template of rules that can be applied in subsequent figures. Matplotlib, one of the most well-established plotting package in Python, offers the ability to customise <code class="highlighter-rouge">rcParams</code> easily which effectively determine the global settings for font-sizes of titles, axis labels, legends or the style of plot lines and markers. Personally, I usually define the size for all fonts and only adjust line and marker styles depending on the type of plots I need. For this purpose, Jupyter notebooks are especially handy as we can easily re-run cells with different settings and compare which settings we prefer.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="n">FONT_SIZE</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">dpi</span> <span class="o">=</span> <span class="mi">200</span>
+
+<span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'font'</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>          <span class="c1"># controls default text sizes
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'axes'</span><span class="p">,</span> <span class="n">titlesize</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>     <span class="c1"># fontsize of the axes title
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'axes'</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>     <span class="c1"># fontsize of the x and y labels
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'xtick'</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>    <span class="c1"># fontsize of the tick labels
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'ytick'</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>    <span class="c1"># fontsize of the tick labels
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'legend'</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>    <span class="c1"># legend fontsize
+</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'figure'</span><span class="p">,</span> <span class="n">titlesize</span><span class="o">=</span><span class="n">FONT_SIZE</span><span class="p">)</span>   <span class="c1"># fontsize of the figure title
+</span><span class="n">plt</span><span class="p">.</span><span class="n">rc</span><span class="p">(</span><span class="s">'figure'</span><span class="p">,</span> <span class="n">dpi</span><span class="o">=</span><span class="n">dpi</span><span class="p">)</span>               <span class="c1"># DPI of the figure
+</span></code></pre></div></div>
+
+<p>On a different note, it is important to anticipate the type of plots that will be included as this also guides which colormaps to use (from divergent to sequential, for instance). In this regard, there are two resources I would like to highlight that have helped me generate colour palettes: <a href="http://vrl.cs.brown.edu/color">Colorgorical</a> and <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3">Colorbrewer</a>. These tools provide tremendous flexibility and propose a set of colours according to the given input that are aesthetically pleasant and, if needed, can even be colourblind- or print-friendly. All in all, a custom colormap can help emphasise relevant aspects of the results presented and create a more polished impression.</p>
+
+<h1 id="leveraging-grid-arrangements"><a name="gridspec_mpl">Leveraging grid arrangements</a></h1>
+
+<p>Next, it is common for figure panels to contain several plots highlighting different aspects parameters of a given analysis. To this end, we can either export each figure individually and arrange them in post-processing software or systematise our plotting script to reduce the amount of editing required. Specifically, Matplotlib has a <code class="highlighter-rouge">gridspec</code> feature where users can define the arrangement of a figure and the subplots in it conveniently.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig_width</span> <span class="o">=</span> <span class="mf">10.5</span> <span class="c1"># inches
+</span><span class="n">fig_height</span> <span class="o">=</span> <span class="mf">6.5</span> <span class="c1"># inches
+</span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="n">fig_width</span><span class="p">,</span> <span class="n">fig_height</span><span class="p">))</span>
+<span class="n">num_rows</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">num_cols</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">outer</span> <span class="o">=</span> <span class="n">gridspec</span><span class="p">.</span><span class="n">GridSpec</span><span class="p">(</span><span class="n">num_rows</span><span class="p">,</span> <span class="n">num_cols</span><span class="p">)</span>
+
+<span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="n">outer</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+</code></pre></div></div>
+<p>In this example, we define a figure with a given dimension and create a grid with the number of columns and rows we need. Next, we progressively add subplots in the desired index location to produce the panel arrangement. Note that additional input parameters are available to enable even more flexibility for the grid.</p>
+
+<h1 id="automating-plotting-tasks"><a name="convenience">Automating plotting tasks</a></h1>
+
+<p>Depending on the arrangement of the plots, it can be beneficial to share axis and labels across columns or rows of the grid previously defined. For instance, if only the parameter being plotted is changing but the remaining style is kept constant, it is convenient to define a plotting function that contains all the variations of plots we need for each position on the grid while conserving the overall layout. For me, this usually implies setting or removing axis labels, defining the number of ticks in each axis, the aspect ratio of the plot, titles, or text labels in the figure. I find this approach to make it much easier to adjust styles and maintain the code as the important plotting code is isolated in a single function. Ultimately, I define a plotting function for each “type” of plot I need to produce and re-use as much code as possible to achieve a consistent style throughout the figure panels.</p>
+
+<h1 id="optional-post-processing-edits"><a name="postprocessing">Optional post-processing edits</a></h1>
+
+<p>After producing all the plots in Python, it is important to organise them in their final arrangement to assess how they fit the underlying message. Usually, I find it helpful to plan the sequence figure panels beforehand by listing what figures are needed, which also makes it easier to focus exactly on what is still missing. In my case, for each figure panel, I write a one-sentence summary to describe what is the main result that readers should take from it. Therefore, after assembling all panels, it is much easier to review if these ideas are properly communicated or if additional data is needed.</p>
+
+<p>Currently, I export all panels from Python in SVG format and carry out the final assembly in Affinity Designer. Therefore, I still have flexibility to make minor adjustments (like spacing or change a specific font-size) while conveniently producing an overview of the plots. Furthermore, it also helps getting a better feeling for the sizes of each plot and where to place figure captions and legends.</p>
+
+<p>As a last step, when all figure panels are ready, it is useful to ask someone else to review them and carefully observe if the meaning of each panel is properly captured.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Clear figures and plots are a crucial element of scientific presentations and articles that require considerable effort to produce. I am continuously exploring more effective ways to display my data and communicate the results appropriately. Please feel free to <a href="https://twitter.com/_franciscomcm">share</a> what are your techniques to design and create clear figures for your scientific work!</p>
+
+    </div>
+    <footer class="post-meta inner-sm">
+      <time class="published" datetime="2022-07-24 00:00">July 24, 2022</time>
+    </footer>
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="read-next inner-sm">
+    <h2 class="read-next-title line-top">Read Next</h2>
+    <div class="post-feed grid grid-col-2">
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Previous post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+      <article class="post grid-item">
+        <div class="post-inside">
+          <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+          <header class="post-header">
+            <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+            <div class="post-meta">
+              <time class="published" datetime="">Next post date</time>
+            </div>
+          </header>
+        </div>
+      </article>
+    </div>
+  </nav>
+  -->
+
+</div><!-- .inner -->
+
+  </main><!-- .site-content -->
+  <footer id="colophon" class="site-footer outer">
+  <div class="inner">
+    <div class="site-footer-inside">
+      <div class="site-info">
+        
+        
+        <span class="copyright">Francisco Correia Marques 2020 <br> <small>Theme based on Exto</small></span>
+        
+        
+      </div><!-- .site-info -->
+      
+      
+    </div><!-- .site-footer-inside -->
+  </div><!-- .inner -->
+</footer><!-- .site-footer -->
+
+</div><!-- .site -->
+
+        <!-- Scripts -->
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body> 
+</html>
